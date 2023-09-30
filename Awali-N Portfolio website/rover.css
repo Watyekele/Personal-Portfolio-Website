@@ -1,0 +1,44 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+ background: #f5f6f7
+}
+
+h1{
+text-align: center;
+background-color:purple;
+width: 100%;
+color: azure;
+margin: 0;
+height: 80px;
+padding: 20px;
+border-bottom: 4px solid #fdb347;
+}
+
+.rover-gallery{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+gap:16px;
+max-width:90%;
+padding: 10px;
+}
+
+.rover-gallery img{
+width: 80%;
+max-width: 420px;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.rover-gallery::after{
+content: "";
+width: 300px;
+}
